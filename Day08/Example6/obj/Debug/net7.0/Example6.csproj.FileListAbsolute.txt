@@ -1,0 +1,14 @@
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\bin\Debug\net7.0\Example6.exe
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\bin\Debug\net7.0\Example6.deps.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\bin\Debug\net7.0\Example6.runtimeconfig.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\bin\Debug\net7.0\Example6.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\bin\Debug\net7.0\Example6.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\obj\Debug\net7.0\Example6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\obj\Debug\net7.0\Example6.AssemblyInfoInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\obj\Debug\net7.0\Example6.AssemblyInfo.cs
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\obj\Debug\net7.0\Example6.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\obj\Debug\net7.0\Example6.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\obj\Debug\net7.0\refint\Example6.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\obj\Debug\net7.0\Example6.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\obj\Debug\net7.0\Example6.genruntimeconfig.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example6\obj\Debug\net7.0\ref\Example6.dll

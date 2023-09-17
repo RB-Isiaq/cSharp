@@ -1,0 +1,14 @@
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\obj\Debug\net7.0\Example8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\obj\Debug\net7.0\Example8.AssemblyInfoInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\obj\Debug\net7.0\Example8.AssemblyInfo.cs
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\obj\Debug\net7.0\Example8.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\bin\Debug\net7.0\Example8.exe
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\bin\Debug\net7.0\Example8.deps.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\bin\Debug\net7.0\Example8.runtimeconfig.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\bin\Debug\net7.0\Example8.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\bin\Debug\net7.0\Example8.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\obj\Debug\net7.0\Example8.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\obj\Debug\net7.0\refint\Example8.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\obj\Debug\net7.0\Example8.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\obj\Debug\net7.0\Example8.genruntimeconfig.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\Day08\example8\obj\Debug\net7.0\ref\Example8.dll
