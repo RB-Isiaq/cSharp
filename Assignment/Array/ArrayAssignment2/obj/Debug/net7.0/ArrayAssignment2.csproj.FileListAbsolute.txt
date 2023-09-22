@@ -1,0 +1,14 @@
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\bin\Debug\net7.0\ArrayAssignment2.exe
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\bin\Debug\net7.0\ArrayAssignment2.deps.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\bin\Debug\net7.0\ArrayAssignment2.runtimeconfig.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\bin\Debug\net7.0\ArrayAssignment2.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\bin\Debug\net7.0\ArrayAssignment2.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\obj\Debug\net7.0\ArrayAssignment2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\obj\Debug\net7.0\ArrayAssignment2.AssemblyInfoInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\obj\Debug\net7.0\ArrayAssignment2.AssemblyInfo.cs
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\obj\Debug\net7.0\ArrayAssignment2.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\obj\Debug\net7.0\ArrayAssignment2.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\obj\Debug\net7.0\refint\ArrayAssignment2.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\obj\Debug\net7.0\ArrayAssignment2.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\obj\Debug\net7.0\ArrayAssignment2.genruntimeconfig.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\Array\ArrayAssignment2\obj\Debug\net7.0\ref\ArrayAssignment2.dll
