@@ -1,0 +1,14 @@
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\bin\Debug\net7.0\ReadingAndWriting.exe
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\bin\Debug\net7.0\ReadingAndWriting.deps.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\bin\Debug\net7.0\ReadingAndWriting.runtimeconfig.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\bin\Debug\net7.0\ReadingAndWriting.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\bin\Debug\net7.0\ReadingAndWriting.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\obj\Debug\net7.0\ReadingAndWriting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\obj\Debug\net7.0\ReadingAndWriting.AssemblyInfoInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\obj\Debug\net7.0\ReadingAndWriting.AssemblyInfo.cs
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\obj\Debug\net7.0\ReadingAndWriting.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\obj\Debug\net7.0\ReadingAndWriting.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\obj\Debug\net7.0\refint\ReadingAndWriting.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\obj\Debug\net7.0\ReadingAndWriting.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\obj\Debug\net7.0\ReadingAndWriting.genruntimeconfig.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\ReadingAndWriting\obj\Debug\net7.0\ref\ReadingAndWriting.dll
