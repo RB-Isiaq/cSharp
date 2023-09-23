@@ -9,26 +9,31 @@
 // Total number of duplicate elements found in the array is : 1
 
 // SOLUTION
-int[] elements = new int[5];
+Console.WriteLine("This app stores a number of element and check for duplicates.\nInput the number of elements to be stored in the array:");
+int n = Convert.ToInt32(Console.ReadLine());
 
-int? value;
+int[] elements = new int[n];
+
 for (int i = 0; i < elements.Length; i++)
 {
-    Console.WriteLine($"Enter element {elements.Length - i} into the array");
-    value = Convert.ToInt32(Console.ReadLine());
-
-    elements[i] = (int)value;
+    Console.WriteLine($"input element {i + 1}");
+    elements[i] = Convert.ToInt32(Console.ReadLine());
 }
 
-Console.WriteLine("Total number of duplicate elements found in the array is :");
-// int[] duplicateCount = { };
+Console.Write("Total number of duplicate elements found in the array is : ");
 
-// for (int item = 0; item < elements.Length; item++)
-// {
-//     // int previous = elements[item]
-//     if (duplicateCount.Contains(elements[item]))
-//     {
-//         duplicateCount[item] = item;
-//     }
-//     Console.Write(item + " ");
-// }
+int duplicateCount = 0;
+
+for (int i = 0; i < elements.Length; i++)
+{
+    for (int j = i + 1; j < elements.Length; j++)
+    {
+        if (elements[i] == elements[j])
+        {
+            duplicateCount++;
+            break; // Exit the inner loop when a duplicate is found
+        }
+    }
+}
+
+Console.Write(duplicateCount);

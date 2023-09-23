@@ -12,6 +12,7 @@
 int[] elements = new int[5];
 
 int? value;
+
 for (int i = 0; i < elements.Length; i++)
 {
     Console.WriteLine($"Enter element {elements.Length - i} into the array");

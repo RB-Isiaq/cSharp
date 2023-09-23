@@ -24,11 +24,13 @@ for (int i = 0; i < elements.Length; i++)
 }
 
 Console.WriteLine("The values store into the array are:");
+
 foreach (int item in elements)
 {
     Console.Write(item + " ");
 }
 Console.WriteLine("\nThe values store into the array in reverse are :");
+
 foreach (int item in elements.Reverse())
 {
     Console.Write(item + " ");

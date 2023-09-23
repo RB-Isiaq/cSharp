@@ -1,0 +1,14 @@
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\bin\Debug\net7.0\StringAssignment4.exe
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\bin\Debug\net7.0\StringAssignment4.deps.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\bin\Debug\net7.0\StringAssignment4.runtimeconfig.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\bin\Debug\net7.0\StringAssignment4.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\bin\Debug\net7.0\StringAssignment4.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\obj\Debug\net7.0\StringAssignment4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\obj\Debug\net7.0\StringAssignment4.AssemblyInfoInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\obj\Debug\net7.0\StringAssignment4.AssemblyInfo.cs
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\obj\Debug\net7.0\StringAssignment4.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\obj\Debug\net7.0\StringAssignment4.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\obj\Debug\net7.0\refint\StringAssignment4.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\obj\Debug\net7.0\StringAssignment4.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\obj\Debug\net7.0\StringAssignment4.genruntimeconfig.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Assignment\String\StringAssignment4\obj\Debug\net7.0\ref\StringAssignment4.dll

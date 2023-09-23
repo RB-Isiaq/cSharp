@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\ArrayAssignment5.csproj": {}
+    "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\ArrayAssignment5.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\ArrayAssignment5.csproj": {
+    "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\ArrayAssignment5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\ArrayAssignment5.csproj",
+        "projectUniqueName": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\ArrayAssignment5.csproj",
         "projectName": "ArrayAssignment5",
-        "projectPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\ArrayAssignment5.csproj",
+        "projectPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\ArrayAssignment5.csproj",
         "packagesPath": "C:\\Users\\HP-PC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\obj\\",
+        "outputPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\Array\\ArrayAssignment5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\StringAssignment3.csproj": {}
+    "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\StringAssignment3.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\StringAssignment3.csproj": {
+    "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\StringAssignment3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\StringAssignment3.csproj",
+        "projectUniqueName": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\StringAssignment3.csproj",
         "projectName": "StringAssignment3",
-        "projectPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\StringAssignment3.csproj",
+        "projectPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\StringAssignment3.csproj",
         "packagesPath": "C:\\Users\\HP-PC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\obj\\",
+        "outputPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Assignment\\String\\StringAssignment3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -8,6 +8,12 @@
 
 Console.WriteLine("Please enter a string");
 string? value = Console.ReadLine();
-string[]? values = value?.Split("");
-string seperatedValue = values.Join(" ");
-Console.WriteLine($"The characters of the string are :  {seperatedValue}");
+Console.WriteLine("The characters of the string are : ");
+
+if (value != null)
+{
+    foreach (char character in value)
+    {
+        Console.Write(character + " ");
+    }
+}
