@@ -1,5 +1,6 @@
-﻿Account acct = new Account();
+﻿using Example3;
 
+Account acct = new Account();
 acct.Type = "Local";
 
-Console.WriteLine($"Account type: {acct.Type}");
+Console.WriteLine($"Account Type is { acct.Type }") ;

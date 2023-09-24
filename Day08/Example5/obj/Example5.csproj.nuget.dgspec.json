@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\Day08\\Example5\\Example5.csproj": {}
+    "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day08\\Example5\\Example5.csproj": {}
   },
   "projects": {
-    "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\Day08\\Example5\\Example5.csproj": {
+    "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day08\\Example5\\Example5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\Day08\\Example5\\Example5.csproj",
+        "projectUniqueName": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day08\\Example5\\Example5.csproj",
         "projectName": "Example5",
-        "projectPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\Day08\\Example5\\Example5.csproj",
+        "projectPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day08\\Example5\\Example5.csproj",
         "packagesPath": "C:\\Users\\HP-PC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\Day08\\Example5\\obj\\",
+        "outputPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day08\\Example5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"

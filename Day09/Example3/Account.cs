@@ -1,16 +1,33 @@
-class Account
+namespace Example3
 {
-    private string? code;
-    private string? type;
-    public string Type
+    public class Account
     {
-        set
+        private string? code;
+        private string? type;
+
+        public string Type 
         {
-            type = value;
+            set 
+            {
+            
+                type = value;
+            }
+            get 
+            {
+                return type;
+            }
         }
-        get
+
+        public string Code 
         {
-            return type;
+            get 
+            {
+                return code;
+            }
+            set 
+            {
+                code = value;
+            } 
         }
     }
 }
