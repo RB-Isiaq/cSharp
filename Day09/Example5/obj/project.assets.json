@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\aoladejo\\.nuget\\packages\\": {}
+    "C:\\Users\\HP-PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\bootcamp2023\\Day09\\Example5\\Example5.csproj",
+      "projectUniqueName": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day09\\Example5\\Example5.csproj",
       "projectName": "Example5",
-      "projectPath": "C:\\bootcamp2023\\Day09\\Example5\\Example5.csproj",
-      "packagesPath": "C:\\Users\\aoladejo\\.nuget\\packages\\",
-      "outputPath": "C:\\bootcamp2023\\Day09\\Example5\\obj\\",
+      "projectPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day09\\Example5\\Example5.csproj",
+      "packagesPath": "C:\\Users\\HP-PC\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day09\\Example5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\aoladejo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\HP-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
