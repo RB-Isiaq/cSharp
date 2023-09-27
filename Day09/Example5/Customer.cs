@@ -14,13 +14,7 @@ namespace Example5
 
         public override string ToString()
         {
-            StringBuilder builder = new StringBuilder();
-            builder.Append("======================\n");
-            builder.Append($"Id : {Id}\n");
-            builder.Append($"Name : {Name}\n");
-            builder.Append($"Email : {Email}\n\n");
-
-            return builder.ToString();
+          
         }
     }
 }
