@@ -1,0 +1,14 @@
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\bin\Debug\net7.0\ErrorHandling.exe
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\bin\Debug\net7.0\ErrorHandling.deps.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\bin\Debug\net7.0\ErrorHandling.runtimeconfig.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\bin\Debug\net7.0\ErrorHandling.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\bin\Debug\net7.0\ErrorHandling.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\obj\Debug\net7.0\ErrorHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\obj\Debug\net7.0\ErrorHandling.AssemblyInfoInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\obj\Debug\net7.0\ErrorHandling.AssemblyInfo.cs
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\obj\Debug\net7.0\ErrorHandling.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\obj\Debug\net7.0\ErrorHandling.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\obj\Debug\net7.0\refint\ErrorHandling.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\obj\Debug\net7.0\ErrorHandling.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\obj\Debug\net7.0\ErrorHandling.genruntimeconfig.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Mentorship\ExceptionHandling\ErrorHandling\obj\Debug\net7.0\ref\ErrorHandling.dll
