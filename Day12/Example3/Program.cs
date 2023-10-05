@@ -7,6 +7,7 @@ numbers.Push(2);
 numbers.Push(3);
 numbers.Push(4);
 numbers.Push(5);
+numbers.Push(6);
 
 foreach (int item in numbers)
 {
