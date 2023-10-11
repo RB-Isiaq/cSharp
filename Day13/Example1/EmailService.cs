@@ -11,17 +11,27 @@ public class EmailService : IEmailService
     }
     public bool SendMessage(Customer customer, MyMessage message)
     {
-        var smtpClient = new SmtpClient(_emailSetting.Server)
+        bool result = false;
+        try
         {
-            Port = 587,
-            Credentials = new NetworkCredential(_emailSetting.Username, _emailSetting.Password),
-            EnableSsl = true,
-        };
-        if (customer != null)
-        {
-            smtpClient.Send(message.From, customer.Email, message.Subject, message.Body);
+             var smtpClient = new SmtpClient(_emailSetting.Server)
+                {
+                    Port = 587,
+                    Credentials = new NetworkCredential(_emailSetting.Username, _emailSetting.Password),
+                    EnableSsl = true,
+                };
+                if (customer != null)
+                {
+                    smtpClient.Send(message.From, customer.Email, message.Subject, message.Body);
 
+                }
+                result = true;
         }
-        return true;
+        catch(SmtpException ex)
+        {
+            Console.WriteLine("Message sending fail " + ex.Nessage);
+        }
+  
+        return result;
     }
 }
