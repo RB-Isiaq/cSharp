@@ -1,0 +1,9 @@
+Write a program with the following
+1. Create a base class called Student with the following properties
+name, email, phone. with one abstract method, one virtual method and one regular method
+
+2. Create three classes FullTimeStudent,PartTimeStudent,OnlineStudent each should inherit from the Student class
+they should all override the virtual method of the Student class and they should all have atleast one property unique to them.
+
+3. Finally create a reference of each of the child class in the Program class and invoke the overrided methods. 
+
