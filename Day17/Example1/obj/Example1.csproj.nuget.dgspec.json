@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\Example1\\Example1.csproj": {}
+    "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\example1\\Example1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\Example1\\Example1.csproj": {
+    "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\example1\\Example1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\Example1\\Example1.csproj",
+        "projectUniqueName": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\example1\\Example1.csproj",
         "projectName": "Example1",
-        "projectPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\Example1\\Example1.csproj",
+        "projectPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\example1\\Example1.csproj",
         "packagesPath": "C:\\Users\\HP-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\Example1\\obj\\",
+        "outputPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day17\\example1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP-PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
