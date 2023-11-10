@@ -33,7 +33,7 @@ List<Institution> GetInstitutions()
             institution.Name = reader.GetString(1);
             institution.Country = reader.GetString(2);
             institution.State = reader.GetString(3);
-            institution.City = reader.GetString(3);
+            institution.City = reader.GetString(4);
 
             institutions.Add(institution);
         }

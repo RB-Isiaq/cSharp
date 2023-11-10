@@ -6,9 +6,9 @@ namespace Example2.Data
 {
     public class InstitutionData
     {
-        private readonly String _dbConnectionString;
+        private readonly string _dbConnectionString;
 
-        public InstitutionData(String dbConnectionString)
+        public InstitutionData(string dbConnectionString)
         {
             _dbConnectionString = dbConnectionString;
         }
