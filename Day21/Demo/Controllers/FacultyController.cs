@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Demo.Models;
 using Demo.Interfaces;
-using Demo.Services;
 
 namespace Demo.Controllers
 {
