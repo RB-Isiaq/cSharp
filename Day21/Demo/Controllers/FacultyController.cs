@@ -1,6 +1,8 @@
 
 using Microsoft.AspNetCore.Mvc;
 using Demo.Models;
+using Demo.Interfaces;
+using Demo.Services;
 
 namespace Demo.Controllers
 {
@@ -11,34 +13,45 @@ namespace Demo.Controllers
 
     public class FacultyController : ControllerBase
     {
-        List<Faculty> faculties = new List<Faculty>();
-        public FacultyController()
+        private readonly IFacultyService _facultyService;
+        public FacultyController(IFacultyService facultyService)
         {
-            faculties.Add(new Faculty()
-            {
-                Id = 1,
-                Name = "Life Science"
-            });
-            faculties.Add(new Faculty()
-            {
-                Id = 2,
-                Name = "Physical Science"
-            });
+            _facultyService = facultyService;
         }
 
         [HttpGet]
-        [Route("faculties")]
+        [Route("getfaculties")]
         public List<Faculty> GetFaculties()
         {
-            return faculties;
+            return _facultyService.GetFaculties();
+        }
+
+        [HttpGet]
+        [Route("faculties/{facultyId}")]
+        public Faculty GetFacultyById(int facultyId)
+        {
+            return _facultyService.GetFacultyById(facultyId);
         }
 
         [HttpPost]
-        [Route("add")]
-        public List<Faculty> CreateFaculty([FromBody] Faculty faculty)
+        [Route("addfaculties")]
+        public void CreateFaculty([FromBody] Faculty faculty)
         {
-            faculties.Add(faculty);
-            return faculties;
+            _facultyService.AddFaculty(faculty);
+        }
+
+        [HttpDelete]
+        [Route("remove/{facultyId}")]
+        public void DeleteFaculty(int facultyId)
+        {
+            _facultyService.DeleteFaculty(facultyId);
+        }
+
+        [HttpPatch]
+        [Route("update")]
+        public void UpdateFaculty([FromBody] Faculty faculty)
+        {
+            _facultyService.UpdateFaculty(faculty);
         }
     }
 }
