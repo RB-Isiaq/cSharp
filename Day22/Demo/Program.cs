@@ -1,7 +1,13 @@
 using Demo.Interfaces;
 using Demo.Services;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Host.UseSerilog((context, configuration) =>
+{
+    configuration.ReadFrom.Configuration(context.Configuration);
+});
 
 // Add services to the container.
 builder.Services.AddSingleton<IInstitutionService, InstitutionService>();

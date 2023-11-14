@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using Demo.Dtos;
 using Demo.Dtos.Institutions;
+using Demo.Extensions;
 using Demo.Interfaces;
 using Demo.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Demo.Controllers
@@ -35,7 +38,7 @@ namespace Demo.Controllers
 
         [HttpGet]
         [Route("getbyid/{id}")]
-        public ActionResult<Institution> GetInstitution(string institutionId)
+        public ActionResult<GenericResponse<GetInstittutionDto>> GetInstitution(string institutionId)
         {
             _logger.LogInformation("Executing GetInstitution");
             if (!_institutionService.IsExist(institutionId))
@@ -44,16 +47,34 @@ namespace Demo.Controllers
             }
             else
             {
-                return _institutionService.GetInstitution(institutionId);
+                var result = new GenericResponse<GetInstittutionDto>()
+                {
+                    Code = "200",
+                    Message = "Success",
+                    Result = _institutionService.GetInstitution(institutionId).InstitutionToGetInstitutionDto()
+
+                };
+                return Ok(result);
             }
         }
 
         [HttpPut]
-        [Route("update/{id}")]
-        public Institution Update(string institutionId, Institution institution)
+        [Route("update")]
+        public ActionResult<Institution> Update(string institutionId, [FromBody] UpdateInstitutionRequest institutionReq)
         {
             _logger.LogInformation("Executing Update");
-            return _institutionService.Update(institutionId, institution);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            var updatedInstitution = new Institution
+            {
+                City = institutionReq.City,
+                Name = institutionReq.Name,
+                Id = institutionReq.Id
+            };
+            _institutionService.Update(institutionId, updatedInstitution);
+            return Ok(HttpStatusCode.OK);
         }
 
         [HttpDelete]
