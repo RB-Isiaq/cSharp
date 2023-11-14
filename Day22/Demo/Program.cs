@@ -1,4 +1,5 @@
 using Demo.Interfaces;
+using Demo.Middlewares;
 using Demo.Services;
 using Serilog;
 
@@ -28,6 +29,17 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+// app.Use(async (context, next) =>
+// {
+//     Console.WriteLine("In my middleware before api call");
+
+//     await next(context);
+
+//     Console.WriteLine("In my middleware after api request is processed");
+// });
+
+app.UseMiddleware<ConventionMiddleware>();
 
 app.MapControllers();
 
