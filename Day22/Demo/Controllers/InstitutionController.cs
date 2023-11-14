@@ -37,7 +37,7 @@ namespace Demo.Controllers
         }
 
         [HttpGet]
-        [Route("getbyid/{id}")]
+        [Route("getbyid")]
         public ActionResult<GenericResponse<GetInstittutionDto>> GetInstitution(string institutionId)
         {
             _logger.LogInformation("Executing GetInstitution");
@@ -78,7 +78,7 @@ namespace Demo.Controllers
         }
 
         [HttpDelete]
-        [Route("delete/{id}")]
+        [Route("delete")]
         public ActionResult<bool> Delete(string institutionId)
         {
             _logger.LogInformation("Executing Delete");

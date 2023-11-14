@@ -31,3 +31,13 @@ C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\obj\Debug\net7.0\r
 C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\obj\Debug\net7.0\Demo.pdb
 C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\obj\Debug\net7.0\Demo.genruntimeconfig.cache
 C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\obj\Debug\net7.0\ref\Demo.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.Sinks.File.dll
