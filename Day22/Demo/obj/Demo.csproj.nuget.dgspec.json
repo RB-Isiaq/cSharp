@@ -42,6 +42,10 @@
               "target": "Package",
               "version": "[7.0.10, )"
             },
+            "Newtonsoft.json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[7.0.0, )"

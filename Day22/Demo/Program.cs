@@ -12,6 +12,9 @@ builder.Host.UseSerilog((context, configuration) =>
 
 // Add services to the container.
 builder.Services.AddSingleton<IInstitutionService, InstitutionService>();
+builder.Services.AddTransient<FactoryMiddleware1>();
+builder.Services.AddTransient<FactoryMiddleware2>();
+builder.Services.AddTransient<ExceptionMiddleware>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -39,8 +42,11 @@ app.UseAuthorization();
 //     Console.WriteLine("In my middleware after api request is processed");
 // });
 
-app.UseMiddleware<ConventionMiddleware>();
+// app.UseMiddleware<ConventionMiddleware>();
+app.UseMiddleware<FactoryMiddleware1>();
+app.UseMiddleware<FactoryMiddleware2>();
 
+app.UseMiddleware<ExceptionMiddleware>();
 app.MapControllers();
 
 app.Run();

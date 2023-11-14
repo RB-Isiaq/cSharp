@@ -4,11 +4,11 @@ namespace Demo.Middlewares
     public class ConventionMiddleware
     {
         private readonly RequestDelegate _next;
-        private readonly ILogger _logger;
+        private readonly ILogger<ConventionMiddleware> _logger;
 
         public ConventionMiddleware(
             RequestDelegate next,
-            ILogger logger
+            ILogger<ConventionMiddleware> logger
         )
         {
             _next = next;
