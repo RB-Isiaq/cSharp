@@ -32,7 +32,7 @@ namespace Demo.Middlewares
                 };
 
                 string json = JsonConvert.SerializeObject(problemDetails);
-                // context.Response.ContentType = "application/json";
+                context.Response.ContentType = "application/json";
                 await context.Response.WriteAsync(json);
             }
         }
