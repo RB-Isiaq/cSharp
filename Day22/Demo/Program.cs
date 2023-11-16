@@ -1,4 +1,4 @@
-using Demo.Interfaces;
+using Demo
 using Demo.Middlewares;
 using Demo.Services;
 using Serilog;
