@@ -1,7 +1,7 @@
 using Demo.Interfaces;
 using Demo.Middlewares;
 using Demo.Services;
-using Serilog;
+using 
 
 var builder = WebApplication.CreateBuilder(args);
 
