@@ -19,14 +19,7 @@ namespace Demo.Services
             var key = _configuration
             .GetValue<string>(Constants.AppConstants.ApiKeyName);
 
-            if (key == userApiKey)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            return Convert.ToBoolean(key == userApiKey);
         }
     }
 }

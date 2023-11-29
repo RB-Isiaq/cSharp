@@ -1,4 +1,5 @@
 using Demo.Interfaces;
+using Demo.Middlewares;
 using Demo.Services;
 using Serilog;
 
@@ -11,6 +12,8 @@ builder.Host.UseSerilog((context, configuration) =>
 
 // Add services to the container.
 builder.Services.AddSingleton<IInstitutionService, InstitutionService>();
+builder.Services.AddSingleton<IApiKeyValidationService, ApiKeyValidationService>();
+builder.Services.AddSingleton<ApiKeyMiddleware>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -28,6 +31,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<ApiKeyMiddleware>();
 
 app.MapControllers();
 
