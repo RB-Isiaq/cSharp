@@ -12,10 +12,6 @@ namespace Demo.Services
         }
         public bool IsValidApiKey(string userApiKey)
         {
-            if (string.IsNullOrEmpty(userApiKey))
-            {
-                return false;
-            }
             var key = _configuration
             .GetValue<string>(Constants.AppConstants.ApiKeyName);
 
