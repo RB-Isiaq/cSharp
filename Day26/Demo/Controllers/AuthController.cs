@@ -40,7 +40,9 @@ namespace Demo.Controllers
                 return Unauthorized();
             }
 
-            return _jwtProvider.GenerateToken(user ?? new User());
+            var authenticatedUser = _usersService.GetUser(user?.UserName ?? string.Empty);
+
+            return _jwtProvider.GenerateToken(authenticatedUser ?? new User());
         }
     }
 }

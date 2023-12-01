@@ -15,9 +15,10 @@ builder.Services.AddSingleton<IInstitutionService, InstitutionService>();
 builder.Services.AddSingleton<IUserService, UserService>();
 builder.Services.AddSingleton<IJwtProvider, JwtProvider>();
 
-var options = new JwtOptions();
 
-builder.Configuration.GetSection("JwtOptions").Bind(options);
+builder.Services.ConfigureOptions<JwtOptionsSetup>();
+builder.Services.Configure<JwtOptions>(
+    builder.Configuration.GetSection("JwtOptions"));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

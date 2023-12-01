@@ -1,10 +1,7 @@
-using System;
-using System.Collections.Generic;
+
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
 using Demo.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -17,6 +14,9 @@ namespace Demo.Provider
         public JwtProvider(IOptions<JwtOptions> options)
         {
             _options = options.Value;
+            Console.WriteLine("SigningKey: " + _options.SigningKey);
+            Console.WriteLine("Audience: " + _options.Audience);
+            Console.WriteLine("Issuer: " + _options.Issuer);
         }
         public string GenerateToken(User user)
         {
