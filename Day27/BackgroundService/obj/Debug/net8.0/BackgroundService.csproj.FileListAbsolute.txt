@@ -1,0 +1,15 @@
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\bin\Debug\net8.0\BackgroundService.exe
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\bin\Debug\net8.0\BackgroundService.deps.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\bin\Debug\net8.0\BackgroundService.runtimeconfig.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\bin\Debug\net8.0\BackgroundService.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\bin\Debug\net8.0\BackgroundService.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\BackgroundService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\BackgroundService.AssemblyInfoInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\BackgroundService.AssemblyInfo.cs
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\BackgroundService.csproj.CoreCompileInputs.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\BackgroundService.sourcelink.json
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\BackgroundService.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\refint\BackgroundService.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\BackgroundService.pdb
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\BackgroundService.genruntimeconfig.cache
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day27\BackgroundService\obj\Debug\net8.0\ref\BackgroundService.dll
