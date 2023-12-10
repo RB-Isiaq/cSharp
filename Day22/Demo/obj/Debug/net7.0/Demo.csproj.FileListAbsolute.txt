@@ -42,3 +42,4 @@ C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\S
 C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
 C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Serilog.Sinks.File.dll
 C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\HP-PC\OneDrive\Desktop\C# bootcamp\cSharp\Day22\Demo\obj\Debug\net7.0\Demo.sourcelink.json

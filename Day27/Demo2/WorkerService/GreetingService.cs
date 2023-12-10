@@ -1,6 +1,3 @@
-
-
-
 using Demo2.UserModels;
 
 namespace Demo2.WorkerService
