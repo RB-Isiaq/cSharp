@@ -1,7 +1,7 @@
 
 namespace Academy.Core.Entities
 {
-    public class Entity
+    public abstract class Entity
     {
         public Guid Id { get; set; }
         public string CreatedBy { get; set; } = string.Empty;
