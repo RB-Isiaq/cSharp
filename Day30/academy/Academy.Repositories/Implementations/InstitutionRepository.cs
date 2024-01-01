@@ -12,29 +12,39 @@ namespace Academy.Repositories.Implementations
         {
             _academicContext = academyContext;
         }
-        public Task<Institution> Add(Institution institution)
+        public async Task<Institution> Add(Institution institution)
         {
-            throw new NotImplementedException();
+            _academicContext.Add(institution);
+            _academicContext.SaveChanges();
+            return await Task.FromResult(institution);
         }
 
-        public Task<bool> Delete(Guid institutionId)
+        public async Task<bool> Delete(Guid institutionId)
         {
-            throw new NotImplementedException();
+            var institution = await Task.FromResult(_academicContext.Institutions.Where(i => i.Id == institutionId).First());
+            _academicContext.Remove(institution);
+            _academicContext.SaveChanges();
+            return _academicContext.SaveChanges() > 0; // it return a number, if it's greater than 0, return true
         }
 
-        public Task<Institution> Get(Guid institutionId)
+        public async Task<Institution> GetById(Guid institutionId)
         {
-            throw new NotImplementedException();
+            var institution = await Task.FromResult(_academicContext.Institutions.Where(i => i.Id == institutionId).First());
+            return institution;
         }
 
-        public Task<List<Institution>> GetAll()
+        public async Task<List<Institution>> GetAll()
         {
-            throw new NotImplementedException();
+
+            return await Task.FromResult(_academicContext.Institutions.ToList());
         }
 
-        public Task<Institution> Update(Institution institution)
+        public async Task<Institution> Update(Institution institution)
         {
-            throw new NotImplementedException();
+            var update = _academicContext.Institutions.Update(institution);
+            _academicContext.SaveChanges();
+            Console.WriteLine(update);
+            return await Task.FromResult(institution);
         }
     }
 }

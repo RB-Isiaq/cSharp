@@ -245,7 +245,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day30\\academy\\Academy.Core\\Academy.Core.csproj": {
+                "projectPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day30\\academy\\Academy.Core\\Academy.Core.csproj"
+              },
+              "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day30\\academy\\Academy.Repositories\\Academy.Repositories.csproj": {
+                "projectPath": "C:\\Users\\HP-PC\\OneDrive\\Desktop\\C# bootcamp\\cSharp\\Day30\\academy\\Academy.Repositories\\Academy.Repositories.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

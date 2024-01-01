@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 using Academy.Core.Entities;
 using Academy.Core.Interfaces;
 

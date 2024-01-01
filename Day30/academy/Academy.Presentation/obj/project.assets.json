@@ -1600,6 +1600,10 @@
       "Academy.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Academy.Core": "1.0.0",
+          "Academy.Repositories": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Academy.Services.dll": {}
         },

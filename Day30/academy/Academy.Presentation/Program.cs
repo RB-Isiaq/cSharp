@@ -1,4 +1,8 @@
+using Academy.Core.Interfaces;
 using Academy.Repositories.Data;
+using Academy.Repositories.Implementations;
+using Academy.Services.Implementations;
+using Academy.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -8,6 +12,14 @@ builder.Services.AddDbContext<AcademyContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default"), b => b.MigrationsAssembly("Academy.Presentation"));
 });
+
+builder.Services.AddScoped<IInstitutionRepository, InstitutionRepository>();
+builder.Services.AddScoped<IFacultyRepository, FacultyRepository>();
+builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<IProgramRepository, ProgramRepository>();
+
+builder.Services.AddScoped<IInstitutionService, InstitutionService>();
 // Learn more a
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
