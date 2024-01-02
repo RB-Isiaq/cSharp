@@ -8,7 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Academy.Presentation.Controllers
 {
-
+    [ApiController]
+    [Route("api/institutions")]
     public class InstitutionController : ControllerBase
     {
         private readonly ILogger<InstitutionController> _logger;
