@@ -22,8 +22,11 @@ builder.Services.AddScoped<IProgramRepository, ProgramRepository>();
 builder.Services.AddScoped<IInstitutionService, InstitutionService>();
 // Learn more a
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddControllers();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 var app = builder.Build();
 
